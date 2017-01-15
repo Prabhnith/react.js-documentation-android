@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Quick Start">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/quick_start_installation"
+                    android:title="Installation" />
+                <item
+                    android:id="@+id/quick_start_hello_world"
+                    android:title="Hello World" />
+                <item
+                    android:id="@+id/quick_start_introducing_jsx"
+                    android:title="Introducing JSX" />
+                <item
+                    android:id="@+id/quick_start_rendering_elements"
+                    android:title="Rendering Elements" />
+                <item
+                    android:id="@+id/quick_start_components_and_props"
+                    android:title="Components and Props" />
+                <item
+                    android:id="@+id/quick_start_state_and_lifecycle"
+                    android:title="State and Lifecycle" />
+                <item
+                    android:id="@+id/quick_start_handling_events"
+                    android:title="Handling Events" />
+                <item
+                    android:id="@+id/quick_start_conditional_rendering"
+                    android:title="Conditional Rendering" />
+                <item
+                    android:id="@+id/quick_start_lists_and_keys"
+                    android:title="Lists and Keys" />
+                <item
+                    android:id="@+id/quick_start_forms"
+                    android:title="Forms" />
+                <item
+                    android:id="@+id/quick_start_lifting_state_up"
+                    android:title="Lifting State Up" />
+                <item
+                    android:id="@+id/quick_start_composition_vs_inheritance"
+                    android:title="Composition vs Inheritance" />
+                <item
+                    android:id="@+id/quick_start_thinking_in_react"
+                    android:title="Thinking In React" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Advanced Guides">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/advanced_guides_jsx_in_depth"
+                    android:title="JSX In Depth" />
+                <item
+                    android:id="@+id/advanced_guides_typechecking_with_proptypes"
+                    android:title="Typechecking With PropTypes" />
+                <item
+                    android:id="@+id/advanced_guides_refs_and_the_dom"
+                    android:title="Refs and the DOM" />
+                <item
+                    android:id="@+id/advanced_guides_uncontrolled_components"
+                    android:title="Uncontrolled Components" />
+                <item
+                    android:id="@+id/advanced_guides_optimizing_performance"
+                    android:title="Optimizing Performance" />
+                <item
+                    android:id="@+id/advanced_guides_react_without_es6"
+                    android:title="React Without ES6" />
+                <item
+                    android:id="@+id/advanced_guides_react_without_jsx"
+                    android:title="React Without JSX" />
+                <item
+                    android:id="@+id/advanced_guides_reconciliation"
+                    android:title="Reconciliation" />
+                <item
+                    android:id="@+id/advanced_guides_context"
+                    android:title="Context" />
+                <item
+                    android:id="@+id/advanced_guides_web_components"
+                    android:title="Web Components" />
+                <item
+                    android:id="@+id/advanced_guides_higher_order_components"
+                    android:title="Higher-Order Components" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Reference">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/reference_react"
+                    android:title="React" />
+                <item
+                    android:id="@+id/reference_react.component"
+                    android:title="     React.Component" />
+                <item
+                    android:id="@+id/reference_reactdom"
+                    android:title="ReactDOM" />
+                <item
+                    android:id="@+id/reference_reactdomserver"
+                    android:title="ReactDOMServer" />
+                <item
+                    android:id="@+id/reference_dom_elements"
+                    android:title="DOM Elements" />
+                <item
+                    android:id="@+id/reference_syntheticevent"
+                    android:title="SyntheticEvent" />
+                <item
+                    android:id="@+id/reference_add_ons"
+                    android:title="Add-Ons" />
+                <item
+                    android:id="@+id/reference_performance_tools"
+                    android:title="     Performance Tools" />
+                <item
+                    android:id="@+id/reference_test_utilities"
+                    android:title="     Test Utilities" />
+                <item
+                    android:id="@+id/reference_animation"
+                    android:title="     Animation" />
+                <item
+                    android:id="@+id/reference_keyed_fragments"
+                    android:title="     Keyed Fragments" />
+                <item
+                    android:id="@+id/reference_immutability_helpers"
+                    android:title="     Immutability Helpers" />
+                <item
+                    android:id="@+id/reference_purerendermixin"
+                    android:title="     PureRenderMixin" />
+                <item
+                    android:id="@+id/reference_shallow_compare"
+                    android:title="     Shallow Compare" />
+                <item
+                    android:id="@+id/reference_two_way_binding_helpers"
+                    android:title="     KTwo-way Binding Helpers" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Contributing">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/contributing_how_to_contribute"
+                    android:title="How to Contribute" />
+                <item
+                    android:id="@+id/contributing_codebase_overview"
+                    android:title="Codebase Overview" />
+                <item
+                    android:id="@+id/contributing_implementation_notes"
+                    android:title="Implementation Notes" />
+                <item
+                    android:id="@+id/contributing_design_principles"
+                    android:title="Design Principles" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

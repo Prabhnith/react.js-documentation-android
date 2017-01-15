@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "238776903917",
+    "firebase_url": "https://yak-company.firebaseio.com",
+    "project_id": "yak-company",
+    "storage_bucket": "yak-company.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238776903917:android:7370c44e52794dc6",
+        "android_client_info": {
+          "package_name": "company.yak.reactjsdocumentation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238776903917-iqvb8fclkrll3rr4lmoduij7gnc289p7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "company.yak.reactjsdocumentation",
+            "certificate_hash": "BBB79DA2FDF3078802430B9942B064F7BCFAE9AB"
+          }
+        },
+        {
+          "client_id": "238776903917-s1svkco0ismjvq2f2nrs7aui5hqg0f6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAafuHlnEN0X96Zp3-h9oFOwPDioqTLMzA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238776903917-s1svkco0ismjvq2f2nrs7aui5hqg0f6e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
