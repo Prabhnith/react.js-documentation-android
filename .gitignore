@@ -8,5 +8,10 @@
 /captures
 .externalNativeBuild
 .idea
-react
-vendor
+/react
+/vendor
+/app/src/main/assets/*
+!/app/src/main/assets/css
+!/app/src/main/assets/img
+!/app/src/main/assets/index.html
+
