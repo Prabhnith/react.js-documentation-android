@@ -1,8 +1,5 @@
 package company.yak.reactjsdocumentation;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
@@ -34,7 +31,6 @@ public class MainActivity extends AppCompatActivity
     private static final String TAG = MainActivity.class.getSimpleName();
     private static String fileName = "hello-world.html";
     private static String layoutDocumentation;
-    private AdView mAdView;
 
     Context mContext;
     Toolbar mToolbar;
@@ -87,10 +83,6 @@ public class MainActivity extends AppCompatActivity
         }
 
         onDocumentationItemSelected(this.fileName);
-
-        mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
 
         mFab = (FloatingActionButton) findViewById(R.id.fab);
         mFab.setVisibility(View.INVISIBLE);
@@ -241,7 +233,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.reference_reactdomserver:
                 getSupportActionBar().setTitle("ReactDOMServer");
                 getSupportActionBar().setSubtitle("Reference");
-                onDocumentationItemSelected("reference-dom-server.html");
+                onDocumentationItemSelected("reference-react-dom-server.html");
                 break;
             case R.id.reference_dom_elements:
                 getSupportActionBar().setTitle("DOM Elements");
@@ -459,7 +451,7 @@ public class MainActivity extends AppCompatActivity
                 getSupportActionBar().setSubtitle("Reference");
                 mNavigationView.setCheckedItem(R.id.reference_reactdom);
                 break;
-            case "reference-dom-server.html":
+            case "reference-react-dom-server.html":
                 getSupportActionBar().setTitle("ReactDOMServer");
                 getSupportActionBar().setSubtitle("Reference");
                 mNavigationView.setCheckedItem(R.id.reference_reactdomserver);
